@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		987B9D182B2BA7A700BC2FA8 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987B9D172B2BA7A700BC2FA8 /* Network.swift */; };
+		987B9D1A2B2BA98000BC2FA8 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987B9D192B2BA98000BC2FA8 /* ViewModel.swift */; };
+		987B9D1C2B2BCC2200BC2FA8 /* DestinationDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987B9D1B2B2BCC2200BC2FA8 /* DestinationDetailScreen.swift */; };
+		987B9D1E2B2BD17200BC2FA8 /* TransportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987B9D1D2B2BD17200BC2FA8 /* TransportView.swift */; };
+		987B9D202B2BD18A00BC2FA8 /* MustSeeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987B9D1F2B2BD18A00BC2FA8 /* MustSeeView.swift */; };
+		987B9D222B2BD19900BC2FA8 /* HotelsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987B9D212B2BD19900BC2FA8 /* HotelsView.swift */; };
+		98A1664C2B29BC550000EAF3 /* DavalebaSwiftUI4App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A1664B2B29BC550000EAF3 /* DavalebaSwiftUI4App.swift */; };
+		98A1664E2B29BC550000EAF3 /* MainScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A1664D2B29BC550000EAF3 /* MainScreenView.swift */; };
+		98A166502B29BC570000EAF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98A1664F2B29BC570000EAF3 /* Assets.xcassets */; };
+		98A166532B29BC570000EAF3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98A166522B29BC570000EAF3 /* Preview Assets.xcassets */; };
+		98A1665A2B29F1E40000EAF3 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A166592B29F1E40000EAF3 /* Model.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		987B9D172B2BA7A700BC2FA8 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		987B9D192B2BA98000BC2FA8 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		987B9D1B2B2BCC2200BC2FA8 /* DestinationDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationDetailScreen.swift; sourceTree = "<group>"; };
+		987B9D1D2B2BD17200BC2FA8 /* TransportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransportView.swift; sourceTree = "<group>"; };
+		987B9D1F2B2BD18A00BC2FA8 /* MustSeeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MustSeeView.swift; sourceTree = "<group>"; };
+		987B9D212B2BD19900BC2FA8 /* HotelsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelsView.swift; sourceTree = "<group>"; };
+		98A166482B29BC550000EAF3 /* DavalebaSwiftUI4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DavalebaSwiftUI4.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		98A1664B2B29BC550000EAF3 /* DavalebaSwiftUI4App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DavalebaSwiftUI4App.swift; sourceTree = "<group>"; };
+		98A1664D2B29BC550000EAF3 /* MainScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenView.swift; sourceTree = "<group>"; };
+		98A1664F2B29BC570000EAF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		98A166522B29BC570000EAF3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		98A166592B29F1E40000EAF3 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		98A166452B29BC550000EAF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		98A1663F2B29BC550000EAF3 = {
+			isa = PBXGroup;
+			children = (
+				98A1664A2B29BC550000EAF3 /* DavalebaSwiftUI4 */,
+				98A166492B29BC550000EAF3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		98A166492B29BC550000EAF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98A166482B29BC550000EAF3 /* DavalebaSwiftUI4.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		98A1664A2B29BC550000EAF3 /* DavalebaSwiftUI4 */ = {
+			isa = PBXGroup;
+			children = (
+				98A1664B2B29BC550000EAF3 /* DavalebaSwiftUI4App.swift */,
+				98A1664D2B29BC550000EAF3 /* MainScreenView.swift */,
+				987B9D1B2B2BCC2200BC2FA8 /* DestinationDetailScreen.swift */,
+				987B9D1D2B2BD17200BC2FA8 /* TransportView.swift */,
+				987B9D1F2B2BD18A00BC2FA8 /* MustSeeView.swift */,
+				987B9D212B2BD19900BC2FA8 /* HotelsView.swift */,
+				987B9D192B2BA98000BC2FA8 /* ViewModel.swift */,
+				98A166592B29F1E40000EAF3 /* Model.swift */,
+				987B9D172B2BA7A700BC2FA8 /* Network.swift */,
+				98A1664F2B29BC570000EAF3 /* Assets.xcassets */,
+				98A166512B29BC570000EAF3 /* Preview Content */,
+			);
+			path = DavalebaSwiftUI4;
+			sourceTree = "<group>";
+		};
+		98A166512B29BC570000EAF3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				98A166522B29BC570000EAF3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		98A166472B29BC550000EAF3 /* DavalebaSwiftUI4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98A166562B29BC570000EAF3 /* Build configuration list for PBXNativeTarget "DavalebaSwiftUI4" */;
+			buildPhases = (
+				98A166442B29BC550000EAF3 /* Sources */,
+				98A166452B29BC550000EAF3 /* Frameworks */,
+				98A166462B29BC550000EAF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DavalebaSwiftUI4;
+			productName = DavalebaSwiftUI4;
+			productReference = 98A166482B29BC550000EAF3 /* DavalebaSwiftUI4.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98A166402B29BC550000EAF3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					98A166472B29BC550000EAF3 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 98A166432B29BC550000EAF3 /* Build configuration list for PBXProject "DavalebaSwiftUI4" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 98A1663F2B29BC550000EAF3;
+			productRefGroup = 98A166492B29BC550000EAF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98A166472B29BC550000EAF3 /* DavalebaSwiftUI4 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		98A166462B29BC550000EAF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98A166532B29BC570000EAF3 /* Preview Assets.xcassets in Resources */,
+				98A166502B29BC570000EAF3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		98A166442B29BC550000EAF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				987B9D1A2B2BA98000BC2FA8 /* ViewModel.swift in Sources */,
+				987B9D1E2B2BD17200BC2FA8 /* TransportView.swift in Sources */,
+				987B9D1C2B2BCC2200BC2FA8 /* DestinationDetailScreen.swift in Sources */,
+				98A1664E2B29BC550000EAF3 /* MainScreenView.swift in Sources */,
+				98A1664C2B29BC550000EAF3 /* DavalebaSwiftUI4App.swift in Sources */,
+				987B9D202B2BD18A00BC2FA8 /* MustSeeView.swift in Sources */,
+				987B9D182B2BA7A700BC2FA8 /* Network.swift in Sources */,
+				98A1665A2B29F1E40000EAF3 /* Model.swift in Sources */,
+				987B9D222B2BD19900BC2FA8 /* HotelsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		98A166542B29BC570000EAF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		98A166552B29BC570000EAF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		98A166572B29BC570000EAF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DavalebaSwiftUI4/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ge.academy.objectDetection.DavalebaSwiftUI4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		98A166582B29BC570000EAF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DavalebaSwiftUI4/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ge.academy.objectDetection.DavalebaSwiftUI4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		98A166432B29BC550000EAF3 /* Build configuration list for PBXProject "DavalebaSwiftUI4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98A166542B29BC570000EAF3 /* Debug */,
+				98A166552B29BC570000EAF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98A166562B29BC570000EAF3 /* Build configuration list for PBXNativeTarget "DavalebaSwiftUI4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98A166572B29BC570000EAF3 /* Debug */,
+				98A166582B29BC570000EAF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 98A166402B29BC550000EAF3 /* Project object */;
+}
