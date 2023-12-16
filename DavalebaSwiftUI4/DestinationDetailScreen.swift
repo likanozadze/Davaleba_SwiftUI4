@@ -10,59 +10,65 @@ import SwiftUI
 struct DestinationDetailScreen: View {
     
     var destination: Destination
-
-    @State private var stackPath: NavigationPath = NavigationPath()
-
+    
+    
+    @Binding var path: NavigationPath
     
     var body: some View {
-        VStack(alignment: .center) {
+        VStack(alignment: .center, spacing: 20) {
             Image(destination.image)
                 .resizable()
-                .aspectRatio(contentMode: .fit)
-                .frame(height: 200)
+                .frame(width: 360)
+                .cornerRadius(10)
+                .padding(.horizontal)
             
             
-          Spacer()
-      
-        
-            VStack {
-                       
-                NavigationLink(destination: TransportView(destination: destination)) {
-                             Text("Transport")
-                                 .frame(minWidth: 0, maxWidth: .infinity)
-                                 .padding()
-                                 .background(Color.blue)
-                                 .foregroundColor(.white)
-                                 .cornerRadius(10)
-                         }
-                         
-                     
-                     
-                         NavigationLink(destination: MustSeeView()) {
-                             Text("Must See")
-                                 .frame(minWidth: 0, maxWidth: .infinity)
-                                 .padding()
-                                 .background(Color.blue)
-                                 .foregroundColor(.white)
-                                 .cornerRadius(10)
-                         }
-        
+            Text(destination.description)
+                .font(.subheadline)
+                .foregroundColor(.secondary)
+            
+            HStack {
                 
-                         NavigationLink(destination: HotelsView()) {
-                             Text("Hotels")
-                                 .frame(minWidth: 0, maxWidth: .infinity)
-                                 .padding()
-                                 .background(Color.blue)
-                                 .foregroundColor(.white)
-                                 .cornerRadius(10)
-                         }
-                      
-                     }
+                NavigationLink(destination: TransportView(destination: destination, path: $path)) {
+                    Text("Transport")
+                        .frame(width: 80, height: 40)
+                        .padding()
+                        .background(Color(#colorLiteral(red: 0.4474008679, green: 0.8647196889, blue: 0.6508255005, alpha: 1)))
+                        .foregroundColor(.black)
+                        .cornerRadius(10)
+                }
+                
+                NavigationLink(destination: MustSeeView(destination: destination, path: $path)) {
+                    Text("Must See")
+                        .frame(width: 80, height: 40)
+                        .padding()
+                        .background(Color(#colorLiteral(red: 0.4474008679, green: 0.8647196889, blue: 0.6508255005, alpha: 1)))
+                        .foregroundColor(.black)
+                        .cornerRadius(10)
+                }
+                
+                
+                NavigationLink(destination: HotelsView(destination: destination, path: $path)) {
+                    Text("Hotels")
+                        .frame(width: 80, height: 40)
+                        .padding()
+                        .background(Color(#colorLiteral(red: 0.4474008679, green: 0.8647196889, blue: 0.6508255005, alpha: 1)))
+                        .foregroundColor(.black)
+                        .cornerRadius(10)
+                }
+                
+            }
             Spacer()
-                 }
+            
+            
+        }
         
-            .navigationTitle(destination.name)
-}
+        .padding(.vertical)
+        .padding(.horizontal)
+        .navigationTitle(destination.name)
+        
+    }
+    
 }
 
 #Preview {
@@ -73,6 +79,6 @@ struct DestinationDetailScreen: View {
         transport: [Transport(image: "transportImage", name: "Transport", description: "Transport Description")],
         mustSee: [MustSee(image: "mustSeeImage", name: "Must See", description: "Must See Description")],
         hotel: [Hotel(image: "hotelImage", name: "Hotel", description: "Hotel Description")]
-    ))
+    ), path: .constant(NavigationPath()))
 }
 

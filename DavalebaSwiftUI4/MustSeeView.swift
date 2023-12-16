@@ -8,11 +8,64 @@
 import SwiftUI
 
 struct MustSeeView: View {
+    
+    var destination: Destination
+    @Binding var path: NavigationPath
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack(spacing: 40) {
+           Image("mustsee")
+           
+                    .resizable()
+                    .frame(width: 360)
+                    .cornerRadius(10)
+                    .padding(.horizontal)
+            List(destination.mustSee, id: \.self) { mustSee in
+                VStack(alignment: .leading, spacing: 10) {
+                    
+                    HStack {
+                
+                            
+                        Text(mustSee.name)
+                                .font(.headline)
+                                .foregroundColor(.primary)
+                        }
+                        
+                        HStack {
+                            
+                            Text(mustSee.description)
+                            
+                                .font(.subheadline)
+                                .foregroundColor(.secondary)
+                        }
+                    }
+                }
+            
+            Button(action: {
+                path = NavigationPath()
+               
+            }, label: {
+                
+                Text("Go to main screen")
+                
+                    .frame(width: 200, height: 40)
+                    .padding()
+                    .background(Color(#colorLiteral(red: 0.4474008679, green: 0.8647196889, blue: 0.6508255005, alpha: 1)))
+                    .foregroundColor(.black)
+                    .cornerRadius(10)
+                
+                
+            })
+                
+            
+            .padding()
+        }
+        
     }
 }
 
-#Preview {
-    MustSeeView()
-}
+
+
+//#Preview {
+//    MustSeeView()
+//}
